@@ -1,0 +1,5 @@
+<mat-toolbar>
+    <mat-nav-list class = "center">
+        <button mat-menu-item class="item" *ngFor="let menu of menuList" routerLink="{{menu.route}}">{{menu.name}}</button>
+    </mat-nav-list>
+</mat-toolbar>

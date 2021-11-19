@@ -1,0 +1,31 @@
+
+.container {
+    padding: 80px;
+    text-align: center;
+    background-color: hsl(60, 78%, 66%);
+    height: 65vh;
+    background-image: url('../../assets/profile2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: Reenie Beanie; color: white;
+}
+
+h2 {
+    font-family: Belgrano; background-color: rgba(255,255,255,0.55);
+    width: 50%;
+    margin: auto;
+}
+
+
+h3 {
+    font-family: Reenie Beanie; color: white;
+    font-size: xx-large;
+    padding-top: 200px;
+    width: 50%;
+    margin: auto;
+}

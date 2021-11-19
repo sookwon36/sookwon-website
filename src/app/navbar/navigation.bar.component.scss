@@ -1,0 +1,25 @@
+.item{
+    border: none;
+    outline: none;
+    padding:17px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+mat-nav-list button {
+    border-bottom: 2px solid transparent;
+    width: 20%
+}
+
+mat-nav-list button:hover {
+    border-bottom: 2px solid deepskyblue;
+}

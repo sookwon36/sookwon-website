@@ -1,0 +1,26 @@
+.foot {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background-color: rgb(154, 220, 247);
+    width: 100%
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    padding: 10px;
+}
+
+button i {
+    border-bottom: 2px solid transparent;
+}
+
+button i:hover {
+    border-bottom: 2px solid deepskyblue;
+    cursor: pointer;
+}
+
+/* h1 {
+    background-color: #ecec63;
+} */

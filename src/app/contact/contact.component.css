@@ -1,0 +1,49 @@
+.card {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    width: 50%;
+    /* padding: 10px; */
+}
+
+li {
+    padding-top: 10px;
+}
+
+.icon {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+}
+
+.divider {
+    border-top: 2px solid rgb(5, 5, 75);
+
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    padding: 10px;
+}
+
+button i {
+    border-bottom: 2px solid transparent;
+}
+
+button i:hover {
+    border-bottom: 2px solid deepskyblue;
+    cursor: pointer;
+}

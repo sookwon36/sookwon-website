@@ -1,0 +1,30 @@
+.container {
+    padding: 100px;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    /* background-color: #ecec63; */
+    /* background-repeat: repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* height: 65vh; */
+}
+
+.section {
+    padding-bottom: 50px;
+    margin: auto;
+    /* width: 500px; */
+    text-align: center;
+    /* background-color: #ecec63; */
+    /* background-repeat: repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* height: 65vh; */
+}
+
+h2 {
+    font-family: Reenie Beanie;
+    font-size: 40px;
+    /* width: 50%; */
+    /* margin: auto; */
+}
