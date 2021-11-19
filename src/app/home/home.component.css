@@ -2,7 +2,7 @@
 .container {
     padding: 80px;
     text-align: center;
-    background-color: hsl(60, 78%, 66%);
+    background-color: #cfcfce;
     height: 65vh;
     background-image: url('../../assets/profile2.jpg');
     background-repeat: no-repeat;
