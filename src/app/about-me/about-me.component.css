@@ -2,11 +2,27 @@
 .container {
     padding: 100px;
     text-align: center;
-    background-color: #cfcfce;
+    /* background-color: #cfcfce; */
     background-repeat: repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* background-size: cover; */
     /* height: 65vh; */
+}
+
+.section {
+    /* padding-bottom: 50px; */
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    /* background-color: #ecec63; */
+    /* background-repeat: repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* height: 65vh; */
+}
+
+div {
+    display: block;
 }
 
 .subcontainer {

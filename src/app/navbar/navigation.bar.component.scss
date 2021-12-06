@@ -1,10 +1,16 @@
-.item{
+.horizontal-item {
     border: none;
     outline: none;
     padding:17px;
     display: inline-block;
     height: auto;
     width: auto;
+    cursor: pointer;
+}
+.vertical-item {
+    border: none;
+    outline: none;
+    padding:17px;
     cursor: pointer;
 }
 
@@ -20,6 +26,19 @@ mat-nav-list button {
     width: 20%
 }
 
+mat-sidenav-content button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
 mat-nav-list button:hover {
     border-bottom: 2px solid deepskyblue;
 }
+
+p {
+    font-family: Reenie Beanie;
+    font-size: 30px;
+    margin: auto;
+}
+

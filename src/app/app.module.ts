@@ -4,8 +4,9 @@ import { NavigationBarComponent } from 'src/app/navbar/navigation.bar.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {CdkTableModule} from '@angular/cdk/table';
-import {HttpClientModule} from '@angular/common/http';
+import { CdkTableModule } from '@angular/cdk/table';
+import { HttpClientModule } from '@angular/common/http';
+import { ClickOutsideModule } from 'ng-click-outside';
 
 import { ModuleWithProviders } from "@angular/core";
 import { MatNativeDateModule } from '@angular/material/core';
@@ -93,6 +94,7 @@ import { RouterModule } from '@angular/router';
         CdkTableModule,
         HttpClientModule,
         BrowserModule,
+        ClickOutsideModule,
 
     ],
     exports: [

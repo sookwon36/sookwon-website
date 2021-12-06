@@ -1,5 +1,24 @@
-<mat-toolbar>
-    <mat-nav-list class = "center">
-        <button mat-menu-item class="item" *ngFor="let menu of menuList" routerLink="{{menu.route}}">{{menu.name}}</button>
-    </mat-nav-list>
-</mat-toolbar>
+<div *ngIf="!isMobile">
+    <mat-toolbar>
+        <mat-nav-list class = "center" (click)="sidenav.close()">
+            
+            <button mat-menu-item class="horizontal-item" *ngFor="let menu of menuList" routerLink="{{menu.route}}">{{menu.name}}</button>
+        </mat-nav-list>
+    </mat-toolbar>
+</div>
+
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav  #sidenav fixedInViewport="true">
+        <mat-nav-list (click)="sidenav.close()">
+            <mat-list-item *ngFor="let menu of menuList">
+                <a class="vertical-item" routerLink="{{menu.route}}">{{menu.name}}</a>
+            </mat-list-item>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content *ngIf="isMobile">
+        <mat-toolbar (window:resize)="sidenav.close()" (clickOutside)="sidenav.close()">
+            <button (click)="sidenav.toggle()"><mat-icon aria-label="Side nav toggle icon">menu</mat-icon></button>
+            <p> Soo Kwon Ha's Personal Website</p>
+        </mat-toolbar>
+    </mat-sidenav-content>
+</mat-sidenav-container>
